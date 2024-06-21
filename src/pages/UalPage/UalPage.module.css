@@ -4,6 +4,8 @@
   width: 100vw;
   height: 100vh;
   padding: 56px 50px;
+
+  overflow: hidden;
 }
 
 .navContainer {
