@@ -1,0 +1,120 @@
+.section {
+  position: relative;
+  background: #000;
+  width: 100vw;
+  height: 100vh;
+  padding: 56px 50px;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-left: 219px;
+}
+
+.icon {
+  position: absolute;
+  top: 54px;
+  left: 50px;
+  width: 118px;
+  height: 59px;
+
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  gap: 85px;
+}
+
+.link {
+  font-weight: 400;
+  font-size: 22px;
+  color: #9b9b9b;
+  text-decoration: none;
+}
+
+.loginBtn {
+  border-radius: 35px;
+  padding: 18px 71px;
+  width: 194px;
+  height: 60px;
+
+  background: transparent;
+  border: 1px solid #9b9b9b;
+  color: #cacaca;
+
+  font-size: 20px;
+
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoContainer {
+  margin-top: 196px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 100px;
+  color: #fff;
+
+  max-width: 809px;
+}
+
+.description {
+  margin-top: 30px;
+  max-width: 497px;
+
+  font-size: 22px;
+  color: #9b9b9b;
+}
+
+.joinBtn {
+  margin-top: 50px;
+  border-radius: 35px;
+  padding: 18px 71px;
+  width: 294px;
+
+  background: #d7ff7a;
+  font-weight: 600;
+  font-size: 22px;
+  color: #000;
+
+  cursor: pointer;
+}
+
+.secondNavList {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 76px;
+
+  width: 329px;
+  height: 759px;
+  border: 2px solid #d7ff7a;
+  border-radius: 168px;
+  padding: 95px 60px;
+  margin-top: 137px;
+}
+
+.secondNavLink {
+  font-size: 22px;
+  color: #9b9b9b;
+  text-decoration: none;
+}
+
+.active {
+  color: #d7ff7a;
+}
+
+.backgroundImage {
+  position: absolute;
+  right: 294px;
+  top: 146px;
+}
